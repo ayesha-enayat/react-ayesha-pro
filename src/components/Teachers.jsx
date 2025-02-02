@@ -29,11 +29,9 @@ const Teachers = () => {
           key={teacher.id}
           className="flex flex-col items-center justify-center p-6 rounded-lg shadow-lg bg-gray-100"
         >
-          {/* Placeholder image if no image is provided */}
           <img
             src={
-              teacher.image ||
-              "https://via.placeholder.com/100" // Fallback image
+              teacher.image  
             }
             alt={teacher.name}
             className="w-24 h-24 mb-4 rounded-full"

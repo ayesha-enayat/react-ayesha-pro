@@ -3,7 +3,7 @@ import HeroImage from '../assets/kid.png'
 
 const Hero = () => {
   return (
-    <section className="flex flex-col md:flex-row items-center px-4 py-8 bg-gray-50">
+    <section className="flex flex-col md:flex-row items-center px-4 py-8">
       {/* Left Section: Text */}
       <div className="w-full md:w-1/2 text-black space-y-6 px-4 py-8 flex flex-col">
         <h1 className="text-3xl md:text-4xl font-bold text-center">Every Client Matters</h1>

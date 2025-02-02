@@ -1,7 +1,7 @@
 import React from "react";
-import graphics1 from "../assets/graphic1.avif"; // Replace with actual image paths
-import graphics2 from "../assets/graphic1.avif"; // Update with unique image
-import graphics3 from "../assets/graphic1.avif"; // Update with unique image
+import graphics1 from "../assets/graphic1.avif"; 
+import graphics2 from "../assets/graphic1.avif";
+import graphics3 from "../assets/graphic1.avif";
 
 const Course = () => {
   const courses = [
