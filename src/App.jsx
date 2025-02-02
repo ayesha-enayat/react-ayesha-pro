@@ -6,6 +6,8 @@ import {
   Stats,
   Features,
   Teachers,
+  Courses,
+  Download,
   Testimonials,
   Footer
 } from "./index"
@@ -22,6 +24,8 @@ const App = () => {
       <Features />
       <Teachers />
       <Testimonials />
+      <Courses/>
+      <Download/>
       <Footer /> 
      
       

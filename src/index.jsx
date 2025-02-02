@@ -5,7 +5,9 @@ import Stats from "./components/Stats"
 import Features from "./components/Features"
 import Teachers from "./components/Teachers"
 import Testimonials from "./components/Testimonial"
+import Courses from "./components/Course"
 import Footer from "./components/Footer"
+import Download from "./components/Download"
 
 
 export {
@@ -16,5 +18,7 @@ export {
     Features,
     Teachers,
     Testimonials,
-    Footer
+    Courses,
+    Footer,
+    Download
 }

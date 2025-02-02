@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Menu, X } from "lucide-react"; // Icons for hamburger menu
 
@@ -30,8 +31,9 @@ export default function Navbar() {
       {/* Buttons - Visible only on larger screens */}
       <div className="hidden md:flex space-x-4">
         <button className="p-2 text-lime-500 hover:text-lime-600 font-bold rounded-md">Login</button>
-        <button className="p-2 bg-lime-500  hover:bg-lime-600 font-bold text-white rounded-md">SignUp</button>
+        <button className="p-2 bg-lime-500 hover:bg-lime-600 font-bold text-white rounded-md">SignUp</button>
       </div>
     </nav>
   );
 }
+
